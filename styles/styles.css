@@ -221,7 +221,7 @@ nav{
 .footer-img{
     height: 50%;
     width: 50%;
-    margin-top: -200px;
+    margin-top: -300px;
     margin-left: -100px;  
 }
 .play-instantly{
@@ -235,7 +235,7 @@ nav{
 
     color: #534C64;
     font-size: 18px;
-    /* font-weight: 400; */
+    font-weight: 400;
    
 }
 
@@ -248,7 +248,8 @@ nav{
     .nav-container,
     .nav-menu-item,
     .banner-section,
-    .gamer-content
+    .gamer-content,
+    .play-section
     
     {
         flex-direction: column;
@@ -292,12 +293,24 @@ nav{
         font-size: 35px;
 
     }
+    .play-img img{
+        width: 80%;
+        margin-left: 50px;
     
+    }
+    
+    .footer-img{
+        margin-left: -40px;
+    }
+
 
 }
 /* responsive for medium device */
 @media screen and (min-width:577px) and (max-width:992px) {
-    .gamer-content{
+    .gamer-content,
+    .play-section
+    
+    {
         flex-direction: column;
     }
     .gamer-text {
@@ -309,4 +322,10 @@ nav{
     .online-games{
         grid-template-columns:repeat(2,1fr);
     }
+    .play-img img{
+        width: 80%;
+        margin-left: 50px;
+    
+    }
+
 }
