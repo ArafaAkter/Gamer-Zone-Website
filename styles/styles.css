@@ -120,6 +120,7 @@ nav{
 }
 .banner-text li{
     color: gray;
+    list-style: none;
 }
 
 /* responsive */
@@ -127,7 +128,8 @@ nav{
 
 @media screen and (max-width: 576px) {
     .nav-container,
-    .nav-menu-item
+    .nav-menu-item,
+    .banner-section
     {
         flex-direction: column;
     }
@@ -136,7 +138,24 @@ nav{
        margin-bottom: 20px;
 
     }
-    
+    .banner-text{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        
+    }
+    .banner-img{
+        width: 100%;
+        
+    }
+    .banner-img img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+    .banner-text, .button1, .button2{
+        margin-bottom: 20px;
+    }
 }
 /* responsive for medium device */
 @media screen and (min-width:577px) and (max-width:992px) {
