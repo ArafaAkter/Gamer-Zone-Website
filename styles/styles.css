@@ -72,7 +72,7 @@ nav{
 .banner-text{
     background-image: url('/images/Group\ 14.png');
     width: 70%;
-    text-align: center;   
+    text-align: center;
 
 }
 .banner-img{
@@ -81,7 +81,7 @@ nav{
 .banner-img img{
     width: 100%;
 }
-.banner-text h3{
+ .banner-text h3{
     margin-top: 15%;
     color: #0B0223;
     text-align: center;
@@ -108,7 +108,7 @@ nav{
     border: none;
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #4EC5F7 0%, #4EC5F7 100%));
-    /* background: #4EC5F7; */
+    
 }
 .banner-text h1{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -121,7 +121,9 @@ nav{
 .banner-text li{
     color: gray;
     list-style: none;
-}
+
+    
+} 
 
 /* gamer section  */
 .gamer-content{
@@ -351,7 +353,7 @@ footer{
        margin-bottom: 20px;
 
     }
-    .banner-text{
+     .banner-text{
         width: 100%;
         margin-top: 20px;
         margin-bottom: 40px;
@@ -368,7 +370,9 @@ footer{
     }
     .banner-text, .button1, .button2{
         margin-bottom: 20px;
-    }
+        
+    } 
+    
     .gamer-img img{
         width: 100%;
     }
