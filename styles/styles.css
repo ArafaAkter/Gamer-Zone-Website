@@ -206,6 +206,7 @@ nav{
 
     
 }
+  
 /* play section */
 .play-section{
     display: flex;
@@ -409,6 +410,11 @@ footer{
     }
     .icon{
         width: 100%;
+    }
+    .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
     }
     .footer-menu{
         display: grid;
