@@ -204,6 +204,41 @@ nav{
 
     
 }
+/* play section */
+.play-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.play-text{
+    text-align: right;
+}
+.play-img img{
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.footer-img{
+    height: 50%;
+    width: 50%;
+    margin-top: -200px;
+    margin-left: -100px;  
+}
+.play-instantly{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+}
+.play-paragraph{
+
+    color: #534C64;
+    font-size: 18px;
+    /* font-weight: 400; */
+   
+}
+
 
 
 /* responsive */
