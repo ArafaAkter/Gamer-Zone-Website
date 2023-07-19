@@ -214,6 +214,7 @@ nav{
     .nav-menu-item,
     .banner-section,
     .gamer-content
+    
     {
         flex-direction: column;
     }
@@ -249,6 +250,14 @@ nav{
     .gamer-text p{
         text-align: center;
     }
+    .online-games{
+        grid-template-columns: 1fr;
+    }
+    .online-games-section .funny,  h1{
+        font-size: 35px;
+
+    }
+    
 
 }
 /* responsive for medium device */
@@ -261,5 +270,8 @@ nav{
     }
     .gamer-text p{
         text-align: center;
+    }
+    .online-games{
+        grid-template-columns:repeat(2,1fr);
     }
 }
