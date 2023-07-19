@@ -39,21 +39,24 @@ nav{
     
 }
 
-.nav-menu-item a{
-    text-decoration: none;
+.nav-menu-item li{
+    list-style: none;
     font-size: 20px;
    color: black;
 }
-
-.nav-menu-item .btn{
-    background-color: slategrey;
-    padding: 5px;
-    font-weight: 200;
-    border-radius: 5px;
+.follow-container{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+    background-color:#F948B2;
+    padding: 1px;
+    font-weight: 100;
+    border-radius: 10px;
     color: black;
     text-align: center;
-    
+    gap: 8px;
 }
+
  .Gamer-g{
     color: #F948B2;
     font-weight: 800;    
