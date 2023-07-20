@@ -1,23 +1,28 @@
+
+/* work sans font */
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+  }
+
 /* nav section start */
+
 nav{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     
 }
 .nav-container{
-
-    min-height: 50px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 1px;
-    
+    gap:20%;
 }
 .logo-container{
-
     display: flex;
-    width: 50%;
 }
 
 .logo-container img{
@@ -30,16 +35,26 @@ nav{
     font-weight: 700;
 }
 
-.nav-menu-item{
-
-    width: 50%;
+.nav-menu-item ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
     
+}
+.nav-menu-item a{
+    text-decoration: none;
+
+}
+.follow-us a{
+    background-color: #FF42A5;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .nav-menu-item li{
+    
     list-style: none;
     font-size: 20px;
    color: black;
@@ -242,6 +257,10 @@ nav{
    
 }
 /* icon section */
+.icon img{
+    width: 30px;
+    height: 30px;
+}
 .icons{
     display: flex;
     flex-wrap: wrap;
@@ -254,9 +273,10 @@ nav{
 }
 .icon{
     display: flex;
-    padding: 5px;
+    align-items: center;
+    padding: 10px;
     gap: 10px;
-    border-radius: 50px;
+    border-radius: 40px;
     background: #FFF;
     
    
@@ -301,6 +321,10 @@ nav{
     color: white;
 
 
+}
+ .footer-icon .fa-brands{
+    font-size: 50px;
+    color: white;
 }
 .footer-icon{
     display: flex;
@@ -349,9 +373,10 @@ footer{
     {
         flex-direction: column;
     }
-    .nav-menu-item{
-       gap: 20px;
-       margin-bottom: 20px;
+    .nav-menu-item ul{
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
 
     }
      .banner-text{
@@ -405,11 +430,16 @@ footer{
     .icons{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        padding: 50px;
+        padding: 10px;
         gap: 20px;
     }
     .icon{
         width: 100%;
+        padding: 2px;
+        
+    }
+    .icon p{
+        font-size: 0.6rem;
     }
     .footer-icon{
         display: grid;
@@ -452,7 +482,9 @@ footer{
     
     }
     .icon-section{
-        padding: 5px 50px;
+        padding: 5px 10px;
+        width: 100%;
+        margin: auto;
      }
      .icons{
          display: grid;
@@ -461,7 +493,7 @@ footer{
          gap: 20px;
      }
      .icon{
-         width: 100%;
+         width: 70%;
      }
 
 }
