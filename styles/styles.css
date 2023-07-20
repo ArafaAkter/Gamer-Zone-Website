@@ -7,6 +7,9 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
   }
+ *{
+   box-sizing: border-box;
+ }
 
 /* nav section start */
 
@@ -19,7 +22,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:30%;
+    gap:20%;
 }
 .logo-container{
     display: flex;
@@ -418,7 +421,7 @@ footer{
     .online-games{
         grid-template-columns: 1fr;
     }
-    .online-games-section .funny,  h1{
+    .online-games-section .funny{
         font-size: 35px;
 
     }
@@ -469,11 +472,14 @@ footer{
 /* responsive for medium device */
 @media screen and (min-width:577px) and (max-width:992px) {
     .gamer-content,
-    .play-section
+    .play-section,
+    .nav-container
     
     {
         flex-direction: column;
     }
+   
+    
     .gamer-text {
         text-align: center;
     }
